@@ -1,0 +1,44 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+
+}
+
+.card {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-container :hover {
+  background-color: #114fd4;
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+.card-container p,
+.card-container img {
+  pointer-events: none;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container img {
+  border-radius: 50%;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
